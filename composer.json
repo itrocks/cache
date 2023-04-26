@@ -1,0 +1,11 @@
+{
+	"authors":           [{ "name": "Baptiste Pillot", "email": "baptiste@pillot.fr" }],
+	"autoload":          { "classmap": ["src/Cache.php"], "psr-4": { "ITRocks\\Cache\\": "src/" } },
+	"description":       "it.rocks cache tools",
+	"homepage":          "https://github.com/itrocks/cache",
+	"license":           "LGPL-3.0-or-later",
+	"minimum-stability": "dev",
+	"name":              "itrocks/cache",
+	"require":           { "php": ">=8.0" },
+	"type":              "library"
+}
